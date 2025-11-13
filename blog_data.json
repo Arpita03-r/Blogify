@@ -1,0 +1,85 @@
+{
+  "current_user": {
+    "user_id": 1,
+    "username": "harini",
+    "email": "harini@example.com",
+    "bio": "Welcome to my blog! ✨ Sharing moments and thoughts.",
+    "created_at": "2025-11-11T09:57:28.291146"
+  },
+  "posts": [
+    {
+      "post_id": 4,
+      "user_id": 1,
+      "username": "harini",
+      "content": "A day in Paris",
+      "image_path": "blog_images\\20251111_095822_paris-background.png",
+      "likes": 0,
+      "liked_by": [],
+      "comments": [],
+      "created_at": "2025-11-11T09:58:22.369759"
+    },
+    {
+      "post_id": 1,
+      "user_id": 1,
+      "username": "harini",
+      "content": "Beautiful sunset at the beach! 🌅 #sunset #beach #nature",
+      "image_path": null,
+      "likes": 42,
+      "liked_by": [],
+      "comments": [
+        {
+          "user_id": 2,
+          "username": "friend1",
+          "text": "Amazing shot!",
+          "created_at": "2025-11-11T09:57:28.291158"
+        },
+        {
+          "user_id": 3,
+          "username": "friend2",
+          "text": "Love this! ❤️",
+          "created_at": "2025-11-11T09:57:28.291159"
+        }
+      ],
+      "created_at": "2025-11-11T09:57:28.291161"
+    },
+    {
+      "post_id": 2,
+      "user_id": 1,
+      "username": "harini",
+      "content": "Coffee and coding ☕💻 Perfect morning vibes!",
+      "image_path": null,
+      "likes": 28,
+      "liked_by": [],
+      "comments": [
+        {
+          "user_id": 2,
+          "username": "friend1",
+          "text": "Same here!",
+          "created_at": "2025-11-11T09:57:28.291164"
+        }
+      ],
+      "created_at": "2025-11-11T09:57:28.291166"
+    },
+    {
+      "post_id": 3,
+      "user_id": 1,
+      "username": "harini",
+      "content": "New project coming soon! Stay tuned 🚀 #coding #project",
+      "image_path": null,
+      "likes": 35,
+      "liked_by": [],
+      "comments": [],
+      "created_at": "2025-11-11T09:57:28.291170"
+    }
+  ],
+  "users": [
+    {
+      "user_id": 1,
+      "username": "harini",
+      "email": "harini@example.com",
+      "bio": "Welcome to my blog! ✨ Sharing moments and thoughts.",
+      "created_at": "2025-11-11T09:57:28.291172"
+    }
+  ],
+  "notifications": []
+}
